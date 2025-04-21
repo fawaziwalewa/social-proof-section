@@ -208,6 +208,9 @@
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
   }
+  .ml-auto {
+    margin-left: auto;
+  }
   .flex {
     display: flex;
   }
@@ -369,11 +372,6 @@
   .lg\:flex-row {
     @media (width >= 64rem) {
       flex-direction: row;
-    }
-  }
-  .lg\:justify-items-end {
-    @media (width >= 64rem) {
-      justify-items: end;
     }
   }
   .lg\:gap-8 {
