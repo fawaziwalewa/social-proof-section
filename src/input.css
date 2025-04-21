@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+    /* Primary Colors */
+    /* Very Dark Magenta */
+    --color-primary-magenta: hsl(300, 43%, 22%);
+    /* Soft Pink */
+    --color-primary-pink: hsl(333, 80%, 67%);
+
+    /* Neutral Colors */
+    /* Dark Grayish Magenta */
+    --color-neutral-dark-magenta: hsl(303, 10%, 53%);
+    /* Light Grayish Magenta */
+    --color-neutral-light-magenta: hsl(300, 24%, 96%);
+    /* Font family */
+    --font-display: "League Spartan", "sans-serif";
+}
+
+section.testimonials {
+    background-image: url('../public/images/bg-pattern-top-mobile.svg'),
+        url('../public/images/bg-pattern-bottom-mobile.svg');
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+}
+
+@media (width >= 64rem) {
+    section.testimonials {
+        background-image: url('../public/images/bg-pattern-top-desktop.svg'),
+            url('../public/images/bg-pattern-bottom-desktop.svg');
+    }
+}
