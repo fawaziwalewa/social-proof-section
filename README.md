@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- 🔗 [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/social-proof-section-tailwindcss)
+- 🔗 [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/social-proof-section---tailwindcss-48u-F6hxtd)
 - 🌐 [Live Site](https://fawaziwalewa.github.io/social-proof-section)
 
 ## My Process
